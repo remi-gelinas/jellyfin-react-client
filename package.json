@@ -32,6 +32,8 @@
         "windows:release": "react-native bundle --platform=windows --entry-file index.js --assets-dest windows/jellyfinclient/ReactAssets --bundle-output windows/jellyfinclient/ReactAssets/index.windows.bundle --dev false"
     },
     "dependencies": {
+        "@commitlint/cli": "^8.3.5",
+        "@commitlint/config-conventional": "^8.3.4",
         "@reduxjs/toolkit": "^1.1.0",
         "electron-store": "^2.0.0",
         "electron-store-webpack-wrapper": "^0.0.2",
@@ -111,6 +113,7 @@
         "file-loader": "2.0.0",
         "fork-ts-checker-webpack-plugin-alt": "0.4.14",
         "html-webpack-plugin": "4.0.0-alpha.2",
+        "husky": "^4.2.3",
         "icon-gen": "2.0.0",
         "identity-obj-proxy": "3.0.0",
         "jest": "23.6.0",
